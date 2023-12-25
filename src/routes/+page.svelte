@@ -5,7 +5,7 @@
 	<div class="wrapper">
 		<div class="main">
 			<h1>Raum</h1>
-			<p>spatial rendering // aufbau</p>
+			<p>spatial rendering // <a target="_blank" href="https://aufbau.io">aufbau</a></p>
 		</div>	
 		<div class="buttons">
 			<a target="_blank" href="https://cubical-boi.netlify.app"><button><p>demo 0.2.0 // perlin</p></button></a>
@@ -75,7 +75,7 @@
 		-webkit-text-stroke-color: var(--primary); */
 	}
 
-	p {
+	p, a {
 		font-size: 14px;
 		color: var(--background);
 	}
