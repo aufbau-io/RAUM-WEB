@@ -294,6 +294,9 @@
 		renderer.autoClearDepth = true;
 		renderer.autoClearStencil = true;
 
+		// fog
+		// scene.fog = new THREE.Fog(0x232323, 0.001, 0.1);
+
 		controls = new OrbitControls(camera, renderer.domElement);
 		controls.target.set(0, 0, 0);  // Explicitly set target to origin
 		controls.update();
@@ -440,7 +443,7 @@
 		// move camera
 		camera.position.x = (event.clientX / window.innerWidth) * 2 - 1;
 		camera.position.y = -(event.clientY / window.innerHeight) * 2 + 1;
-
+		
 		camera.lookAt(scene.position);
 	}
 
