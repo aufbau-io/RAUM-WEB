@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-	import { xPlane, yPlane, zPlane, animationSpeed } from '$lib/store/store';
+	import { xPlane, yPlane, zPlane, animationSpeed, screenType } from '$lib/store/store';
 	import { page } from '$app/stores';
 	import { afterNavigate } from '$app/navigation';
 
@@ -277,9 +277,9 @@
 
 	function init() {
 		camera = new THREE.PerspectiveCamera(100, width / height, 0.001, 100);
-		camera.position.x = .75; 	
+		camera.position.x = 0.; 	
 		camera.position.y = .75; 	
-		camera.position.z = .75; 	
+		camera.position.z = -.75; 	
 
 		scene = new THREE.Scene();
 
@@ -457,6 +457,13 @@
 			plane.material.uniforms.time.value = clock.getElapsedTime() * 0.0125 * $animationSpeed;
 		});
 		renderer.render( scene, camera );
+
+		if ($screenType != 3) {
+			camera.position.x = Math.sin(clock.getElapsedTime() * 0.2);
+			camera.position.y = Math.sin(clock.getElapsedTime() * 0.2) - .5;
+
+			camera.lookAt(scene.position);
+		}
 	}
 </script>
 

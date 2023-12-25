@@ -51,7 +51,7 @@
 </script>
 
 <svelte:head>
-	<title>RAUM</title>
+	<title>RAUM // SPATIAL RENDERING</title>
 	<meta name="description" content="RAUM. SPATIAL RENDERING." />
 
 	<link

@@ -108,17 +108,20 @@
 		color: var(--primary);
 	}
 
-	/* @media only screen and (max-width: 768px) {
-		.main {
-			position: absolute;
-			bottom: 20px;
-			width: calc(100% - 40px);
-			padding: 10px;
-			background:  var(--background);
-		}
+	@media only screen and (max-width: 768px) {
+		.main h1 {
+		padding: 10px;
+		font-size: 80px;
+		/* background:  var(--background); */
+		color: var(--background);
+		/* text-border */
+		/* -webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: var(--primary); */
+	}
 
-		.main p {
-			background:  var(--background);
-		}
-	} */
+	p {
+		font-size: 12px;
+		color: var(--background);
+	}
+	}
 </style>
