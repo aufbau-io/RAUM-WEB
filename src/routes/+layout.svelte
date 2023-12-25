@@ -62,13 +62,13 @@
 		crossorigin="anonymous"
 	/>
 
-	<!-- <link
+	<link
 	rel="preload"
 	href="/fonts/manifold_1.woff2"
 	as="font"
 	type="font/woff2"
 	crossorigin="anonymous"
-/> -->
+/>
 
 	<!-- <link
 		rel="preload"
