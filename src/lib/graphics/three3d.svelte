@@ -441,10 +441,14 @@
 	function onMouseMove(event) {
 		event.preventDefault();
 		// move camera
-		camera.position.x = (event.clientX / window.innerWidth) * 2 - 1;
-		camera.position.y = -(event.clientY / window.innerHeight) * 2 + 1;
+		if ($screenType == 3) {
+			camera.position.x = (event.clientX / window.innerWidth) * 2 - 1;
+			camera.position.y = -(event.clientY / window.innerHeight) * 2 + 1;
+
+			camera.lookAt(scene.position);
+		}
 		
-		camera.lookAt(scene.position);
+
 	}
 
 	function animate() {
