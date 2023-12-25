@@ -8,8 +8,8 @@
 			<p>spatial rendering // aufbau</p>
 		</div>	
 		<div class="buttons">
-			<a href="https://cubical-boi.netlify.app"><button><p>demo 2 // perlin</p></button></a>
-			<a href="https://webgl-volumetric-renderer.netlify.app/"><button><p>demo 1 // volumetric</p></button></a>
+			<a target="_blank" href="https://cubical-boi.netlify.app"><button><p>demo 0.2.0 // perlin</p></button></a>
+			<a target="_blank" href="https://webgl-volumetric-renderer.netlify.app/"><button><p>demo 0.1.0 // volumetric</p></button></a>
 		</div>
 	</div>
 </section>
