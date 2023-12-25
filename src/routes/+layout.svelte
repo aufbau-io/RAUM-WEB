@@ -78,8 +78,6 @@
 		crossorigin="anonymous"
 	/> -->
 
-	<link rel="preload" href="/sand.jpg" as="image">
-
 	<!-- <link rel="preload" href="icons/cv.svg" as="image">
 	<link rel="preload" href="icons/insta.svg" as="image">
 	<link rel="preload" href="icons/mail.svg" as="image"> -->
