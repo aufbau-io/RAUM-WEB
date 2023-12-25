@@ -42,6 +42,7 @@
 		justify-content: center;
 		align-items: center;
 		gap: 10px;
+		padding: 20px;
 	}
 
 	.main {
