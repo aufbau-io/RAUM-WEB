@@ -59,7 +59,7 @@
 
 		color: var(--background);
 		border: solid 1px var(--background);
-		backdrop-filter: blur(5px);
+		/* backdrop-filter: blur(5px); */
 		padding:  20px;
 		z-index: 10;
 	}
@@ -95,7 +95,7 @@
 		padding: 10px;
 		width: 100%;
 		border: solid 1px var(--background);
-		backdrop-filter: blur(5px);
+		/* backdrop-filter: blur(5px); */
 
 	}
 
