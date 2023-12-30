@@ -98,6 +98,7 @@
 		padding: 10px;
 		width: 100%;
 		border: solid 1px var(--background);
+		background: none
 		/* backdrop-filter: blur(5px); */
 
 	}

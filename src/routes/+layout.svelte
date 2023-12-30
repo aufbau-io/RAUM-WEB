@@ -1,5 +1,5 @@
 <script>
-	import './app.css';
+	import './styles.css';
 
 	import { onMount } from 'svelte';
 	import { screenType, isIframe } from '$lib/store/store';
@@ -44,10 +44,7 @@
 
 		screenType.set(getDeviceType());
 		isIframe.set(window.location !== window.parent.location);
-
 	});
-
-
 </script>
 
 <svelte:head>
@@ -63,12 +60,12 @@
 	/>
 
 	<link
-	rel="preload"
-	href="/fonts/manifold_1.woff2"
-	as="font"
-	type="font/woff2"
-	crossorigin="anonymous"
-/>
+		rel="preload"
+		href="/fonts/manifold_1.woff2"
+		as="font"
+		type="font/woff2"
+		crossorigin="anonymous"
+	/>
 
 	<!-- <link
 		rel="preload"
@@ -95,5 +92,4 @@
 		flex-direction: column;
 		height: 100dvh;
 	}
-
 </style>
