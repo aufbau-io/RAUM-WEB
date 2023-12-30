@@ -63,14 +63,15 @@
 		color: var(--background);
 		border: solid 1px var(--background);
 		/* backdrop-filter: blur(5px); */
-		padding:  20px;
+		padding:  0px 0 20px 0;
 		z-index: 10;
 	}
 
 
 	.main h1 {
-		padding: 10px;
+		padding: 0px;
 		font-size: 200px;
+		padding: 20px 0;
 		/* background:  var(--background); */
 		color: var(--background);
 		/* text-border */
@@ -81,9 +82,15 @@
 	p, a {
 		font-size: 14px;
 		color: var(--background);
+		margin: 0;
+	}
+
+	h1 {
+		margin: 20px 0;
 	}
 
 	.buttons {
+		padding-top: 5px;
 		width: 100%;
 		display: flex;
 		gap: 10px;
@@ -105,12 +112,10 @@
 	}
 
 	button:hover {
+		background: var(--background);
 		color: var(--primary);
 	}
 
-	button:hover p {
-		color: var(--primary);
-	}
 
 	@media only screen and (max-width: 768px) {
 		.main h1 {
