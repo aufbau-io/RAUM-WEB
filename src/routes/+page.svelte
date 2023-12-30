@@ -98,13 +98,13 @@
 		padding: 10px;
 		width: 100%;
 		border: solid 1px var(--background);
-		background: none
+		background: none;
+		cursor: pointer;
 		/* backdrop-filter: blur(5px); */
 
 	}
 
 	button:hover {
-		background: var(--background);
 		color: var(--primary);
 	}
 
