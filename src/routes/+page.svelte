@@ -5,12 +5,12 @@
 	<div class="wrapper">
 		<div class="main">
 			<h1>Raum</h1>
-			<p>spatial rendering // high-fidelity, non-euclidean // ein aufbau ding</p>
+			<p>spatial rendering experiments // aufbau</p>
 		</div>	
 		<div class="buttons">
 			<!-- <a target="_blank" href="https://cubical-boi.netlify.app"><button><p>demo 0.2.0 // perlin</p></button></a>
 			<a target="_blank" href="https://webgl-volumetric-renderer.netlify.app/"><button><p>demo 0.1.0 // volumetric</p></button></a> -->
-			<a href="https://aufbau.io"><button>aufbau homepage</button></a>
+			<a href="https://aufbau.io"><button>aufbau web</button></a>
 			<p>build in progress.</p>
 		</div>
 	</div>
